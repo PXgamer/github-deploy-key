@@ -1,8 +1,7 @@
 #!/usr/bin/env php
 <?php
 
-const NAME = 'Github Deploy Key';
-const VERSION = '@git-version@';
+$version = '@git-version@';
 
 if (file_exists(__DIR__ . '/../../../autoload.php')) {
     require __DIR__ . '/../../../autoload.php';
@@ -11,8 +10,8 @@ if (file_exists(__DIR__ . '/../../../autoload.php')) {
 }
 
 $app = new Symfony\Component\Console\Application(
-    NAME,
-    VERSION === '@'.'git-version@' ? 'source' : VERSION
+    'Github Deploy Key',
+    $version === '@'.'git-version@' ? 'source' : $version
 );
 
 try {

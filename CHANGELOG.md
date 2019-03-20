@@ -6,6 +6,12 @@ Updates should follow the [Keep a CHANGELOG](https://keepachangelog.com) princip
 
 ## [Unreleased]
 
+## [v1.2.1] - 2019-03-20
+
+### Fixed
+- Fix Travis Phar release uploading to use PHP 7.2 ([a8fbfad3](a8fbfad38b0c41ae59ef8872c7be2b3fb591d764)
+- Add version replacement to remove mismatches ([280ec469](280ec4694303a310826a988b1aa843c2b1450096)
+
 ## [v1.2.0] - 2019-03-20
 
 ### Added
@@ -67,6 +73,7 @@ Updates should follow the [Keep a CHANGELOG](https://keepachangelog.com) princip
 - Initial full command flow
 
 [Unreleased]: https://github.com/pxgamer/github-deploy-key/compare/master...develop
+[v1.2.1]: https://github.com/pxgamer/github-deploy-key/compare/v1.2.0...v1.2.1
 [v1.2.0]: https://github.com/pxgamer/github-deploy-key/compare/v1.1.4...v1.2.0
 [v1.1.4]: https://github.com/pxgamer/github-deploy-key/compare/v1.1.3...v1.1.4
 [v1.1.3]: https://github.com/pxgamer/github-deploy-key/compare/v1.1.2...v1.1.3
